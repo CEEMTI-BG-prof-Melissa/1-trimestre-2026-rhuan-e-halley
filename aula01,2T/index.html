@@ -1,40 +1,40 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
  <head>
-    <title>Formulário HTML</title>
+    <title>Formulário HTML</title> <!--CERTO1!-->
     <meta charset="UTF-8">
- </head>
+ </head> <!--CERTO2!-->
 
 <body>
-    <h1>Cadastro de Usuário</h1>
-    <form action="cadastro.php" method="GET">
+    <h1>Cadastro de Usuário</h1> <!--CERTO3!-->
+    <form action="cadastro.php" method="GET"> <!--CERTO4!-->
     <label for="nome">Nome: </label>
-    <input type="text" Name="Nome" id="nome">
+    <input type="text" Name="Nome" id="nome"> <!--CERTO5!-->
     <br>
     <label for="email">E-mail:</label>
-    <input type="email" id="email" name="email">
+    <input type="email" id="email" name="email"> <!--CERTO6!-->
     <br>
     <label for="senha">Senha:</label>
-    <input type="password" id="Senha" name="senha">
+    <input type="password" id="Senha" name="senha"> <!--CERTO7!-->
     <br>
     <label for="idade">Idade:</label>
     <input type="number" name="idade" id="idade">
     <br>
-    <label for="data">Data de nascimento:</label>
-    <input type="date" name="data" id="nascimento">
+    <label for="nascimento">Data de nascimento:</label> <!--CERTO8!-->
+    <input type="date" name="data" id="nascimento"> <!--CERTO9!-->
     <br>
     <p>Turno:</p>
     <input type="radio" name="turno" id=" manha"> <label for="manha">Manhã</label>
-    <input type="radio" name="turno" id=" tarde"> <label for="tarde">Tarde</label>
+    <input type="radio" name="turno" id=" tarde"> <label for="tarde">Tarde</label> <!--CERTO10 e 11!-->
     <input type="radio" name="turno" id=" noite"> <label for="noite">Noite</label>
     <br>
     <p>Áreas de interrese:</p>
     <input type="checkbox" name="area" id="programacao"> <label for="programacao">Programação</label>
     <input type="checkbox" name="area" id="design"> <label for="design">Design</label>
-    <input type="checkbox" name="area" id="redes"> <label for="redes">Redes</label>
+    <input type="checkbox" name="area" id="redes"> <label for="redes">Redes</label> <!--CERTO12!-->
     <br>
-    <input type="submit" value="Enviar">
-    <input type="reset" value="Limpar">
+    <input type="submit" value="Enviar"><!--CERTO13!-->
+    <input type="reset" value="Limpar"><!--CERTO14!-->
     </form>
 </body>
 </html>
